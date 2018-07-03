@@ -1,0 +1,278 @@
+/* TYPE SELECTOR  */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+
+h1 {
+  color: #f4e5a7;
+  font: 2.2rem "Comic Sans MS", cursive, sans-serif;
+  text-shadow: 0 0 2px #183e2c;
+  margin-top: 30%;
+  margin-left: 20%;
+  width: 70%;
+  text-align: center;
+}
+
+/* Id Selector */
+#hours {
+  margin-top: 20%;
+}
+
+
+/* CLASS SELECTOR  */
+.logo {
+  width: 50%;
+  /*transform: rotate(18deg);*/
+  margin-top: 8%;
+  margin-left: 12%;
+  padding-left: 0;
+  height: 200px;
+}
+
+.main-page {
+  background: linear-gradient(rgb(135,206,250), transparent, #93d2fa),
+              #BDB76B url('../img.jpg/main.jpg') no-repeat center / cover;
+  width: 100%;
+  height: 726px;
+  overflow: hidden;
+}
+
+.main {
+  width: 60%;
+  text-align: center;
+  font: bold 2rem/1.3 "Comic Sans MS", cursive, sans-serif;
+  color: #f4e5a7;
+  text-shadow: 0 0 2px #001933;
+  margin-left: 20%;
+  margin-top: 2.6%;
+}
+
+/*-- Menu page ---*/
+
+/* TYPE SELECTOR  */
+h2 {
+  color: #f4e5a7;
+  font: 3rem "Comic Sans MS", cursive, sans-serif;
+  text-shadow: 0 0 2px #183e2c;
+  text-decoration: underline;
+}
+
+
+/*-- ID Selector ---*/
+#menu {
+  margin-top: 4%;
+  margin-left: 15%;
+  font: 3rem "Comic Sans MS", cursive, sans-serif;
+  text-shadow: 0 0 2px #183e2c;
+  text-decoration: underline;
+}
+
+/*-- Class Selector ---*/
+.main-nav {
+  background-color: #F1E291;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  height: 85px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.nav li {
+  padding: 16px 45px;
+}
+
+
+.logo2 {
+  width: 100%;
+  float: left;
+  height: 70px;
+  margin-left: -7%;
+  margin-top: -2.2%;
+}
+
+.description {
+  background: linear-gradient(#0fb5cd, transparent, #6b88c9, #00a4ef),
+              url(../img.jpg/logo.jpg) no-repeat center / cover;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  font: normal 1.2rem/1.5 "Comic Sans MS", cursive, sans-serif;
+  text-shadow: 0 0 2px #187c86;
+  overflow: hidden;
+  color: #c3e6fc;
+}
+
+.prize {
+  font-size: .95rem;
+  margin-top: 5%;
+}
+
+/* Pseudo SELECTOR */
+
+.nav a:link {
+  color: #911616;
+  text-decoration: none;
+  font: bold 2.1rem fantasy;
+}
+
+.nav a:visited {
+  color: #911616;
+}
+
+.nav a:hover {
+  color: #008ba3;
+}
+
+
+/* Contact page */
+
+/* Id Selector */
+
+#contact2 {
+    margin-top: 4%;
+    margin-left: 15%;
+    font: 3rem "Comic Sans MS", cursive, sans-serif;
+    text-shadow: 0 0 2px #183e2c;
+    text-decoration: underline;
+  }
+
+
+/* Class Selector */
+
+.contact {
+  background: linear-gradient(#0fb5cd, transparent, #0099CC, #00a4ef),
+              url(../img.jpg/logo.jpg) no-repeat center / cover;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  font: normal 1.2rem/1.5 "Comic Sans MS", cursive, sans-serif;
+  text-shadow: 0 0 2px #187c86;
+  overflow: hidden;
+  color: #c3e6fc;
+}
+
+.mail {
+  text-decoration: none;
+  color: #c3e6fc;
+  font-style: italic;
+}
+
+.social {
+  text-decoration: none;
+  color: #c3e6fc;
+  font-style: italic;
+}
+
+.dorysmap {
+  width: 60%;
+  height: 550px;
+}
+
+footer {
+  background-color: skyblue; /*linear-gradient(#AAAAFF, #0099CC, transparent),
+              url(../img.jpg/logo.jpg) no-repeat center / cover;*/
+  overflow: hidden;
+}
+
+.copyright {
+  top: -8px;
+  font-size: .75em;
+  margin-top: 0;
+  color: grey;
+}
+
+
+/* Styles for larger screens */
+@media (max-width: 768px) {
+
+.main {
+  width: 100%;
+  text-align: center;
+  font: bold 1.5rem/1.3 "Comic Sans MS", cursive, sans-serif;
+  color: #f4e5a7;
+  text-shadow: 0 0 2px #001933;
+  margin-left: 0;
+  margin-top: 10%;
+}
+
+h1 {
+  color: #f4e5a7;
+  font: 1.5rem/1.3 "Comic Sans MS", cursive, sans-serif;
+  text-shadow: 0 0 2px #183e2c;
+  margin-top: 60%;
+  margin-left: 20%;
+  margin-bottom: 15%;
+  width: 70%;
+  text-align: center;
+}
+
+#hours {
+  margin-top: -2%;
+}
+
+.main-nav {
+  height: 280px;
+  background-color: #F1E291;
+}
+
+.nav {
+  display: inline-block;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+.nav li {
+  padding: 1px 5px;
+}
+
+.logo2 {
+  width: 100%;
+  float: left;
+  height: 70px;
+  margin: 0 auto;
+}
+
+#menu {
+  margin-bottom: 9%;
+  font: 2.2rem "Comic Sans MS", cursive, sans-serif;
+}
+
+h2 {
+  font: 1.5rem "Comic Sans MS", cursive, sans-serif;
+}
+
+.description {
+  font: normal 1.1rem/1.5 "Comic Sans MS", cursive, sans-serif;
+}
+
+.prize {
+  font-size: .45rem;
+  margin-top: 5%;
+}
+
+#contact2 {
+  font: 2.2rem "Comic Sans MS", cursive, sans-serif;
+  margin-bottom: -2%;
+}
+
+}
